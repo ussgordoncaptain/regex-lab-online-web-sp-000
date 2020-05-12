@@ -17,7 +17,7 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
- arr= text.scan(/\b[A+J]\w*\b/)
+ arr= text.scan(/\b[A-Z]\w*[.?,!]/)
  
 end
 
